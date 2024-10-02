@@ -24,7 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
 </Text>
 <div className="flex flex-col justify-center gap-[18px]">
 <div className="flex items-center gap-2">
-<Img src="images/img_call.svg" alt="Call Icon" className="h-[24px] w-[24px]" />
+<Img src="images/10041.svg" alt="Call Icon" className="h-[24px] w-[24px]" />
 <Text size="texts" as="p" className="text-[18px] font-normal text-white-a700 1g:text-[15px]">
 +1234567890
 </Text>
@@ -136,7 +136,7 @@ as="p"
 className="ml-6 text-[18px] font-normal tracking-[8.36px] text-blue_gray-100_7f lg:text-[15px]">
 Enter your email
 </Text>
-<Button color="white_A700" size="2x1" shape="square" className="w- [60px] px-3.5">
+<Button color="white_A700" size="2xl" shape="square" className="w- [60px] px-3.5">
 <img src="images/img_arrow_gray_800.svg" />
 </Button>
 </div>
