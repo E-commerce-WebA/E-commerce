@@ -1,4 +1,3 @@
-import React from "react";
 import { Img } from "../Img/Img.tsx";
 import { Button } from "../Button/Button.tsx";
 import { Text } from "../Text/Text.tsx";
@@ -254,7 +253,7 @@ export default function Footer({ ...props }: Props) {
                     shape="square"
                     className="w- [60px] px-3.5"
                   >
-                    <img src="images/img_arrow_gray_800.svg" />
+                    <Img src="images/img_arrow_gray_800.svg" />
                   </Button>
                 </div>
               </div>
