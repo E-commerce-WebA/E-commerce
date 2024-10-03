@@ -34,10 +34,12 @@ size = "xs",
 },
 ref,
 ) => {
-const handleChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
-};
-if (onChange) { onChange(e?.target?.checked);
-};
+    const handleChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
+
+    if (onChange) {
+        onChange(e?.target?.checked);
+    }
+}
 return (
     <>
     <div className={className + "flex items-center gap-[5px] cursor-pointer"}>

@@ -35,7 +35,7 @@ const Header = ({ ...props }: Props) => {
                         {searchBarValue?.length > 0 ? (
                             <CloseSVG onClick={() => setSearchBarValue('')} height={18} width={18}/>
                         ) : (
-                        <Img src="images/img_search_white_a700_18x18.svg" alt="Search" className="h-[18px] w-[18px] p-3.5"/>
+                        <Img src="images/img_search.svg" alt="Search" className="h-[18px] w-[18px] p-3.5"/>
                         )}
                     </div>
             }
@@ -44,7 +44,7 @@ const Header = ({ ...props }: Props) => {
             <div>
                 <div>
                     <a href="#">
-                        <Img src="images/img_search_white_a700_18x18.svg" alt="Search Icon" className="h-[24px] w-[24px]"/>
+                        <Img src="images/img_search.svg" alt="Search Icon" className="h-[24px] w-[24px]"/>
                     </a>
                     <a href="#">
                         <Img src="images/img_cart.svg" alt="Cart Icon" className="h-[24px] w-[24px]"/>
