@@ -57,7 +57,7 @@ const Button: React.FC<React.PropsWithChildren<ButtonProps>> = ({
         }) => {
         return (
             <button
-                className={${className} flex flex-row items-center justify-center text-center cursor-pointer whitespace-nowrap ${shape && shapes[shape]} ${size && sizes[size]} ${variant && variants[variant]?.[color as keyof (typeof variants)[typeof variant]]}}
+                className={`${className} flex flex-row items-center justify-center text-center cursor-pointer whitespace-nowrap ${shape && shapes[shape]} ${size && sizes[size]} ${variant && variants[variant]?.[color as keyof (typeof variants)[typeof variant]]}`}
                 {...restProps}
             >
                 {!!leftIcon && leftIcon}
