@@ -36,7 +36,7 @@ ref,
 ) => {
 const handleChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
 };
-if (onChange) onChange(e?.target?.checked);
+if (onChange) { onChange(e?.target?.checked);
 };
 return (
     <>

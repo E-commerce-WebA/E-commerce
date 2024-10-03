@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /*------Color variables------ */
+        --black_900_0c: #0000000c;
+        --black_900_19: #00000019;
+        --black_900_26: #00000026;
+        --black_900_68: #00000068;
+        --blue_gray_100: #cdcfd1;
+        --blue_gray_100_7f: #cdcfd17f;
+        --gray_50: #f6f7fb;
+        --gray_500: #9f9f9f;
+        --gray_500_7f: #9f9f9f7f;
+        --gray_800: #393d46;
+        --white_a700: #ffffff;
+        --white_a700_82: #ffffff82;
+        --yellow_400: #fae952;
+
+        /*------Shadow variables------ */
+        --shadow-xs: 0 16px 25px 0 #0000000c;
+        --shadow-sm: 0 16px 25px 0 #0000000c;
+        --shadow-md: 0 16px 25px 0 #00000019;
+        --shadow-lg: 0 16px 25px 0 #00000026;
+
+        /*------Border radius variables------ */
+        --radius-xs: 6px;
+        --radius-sm: 28px;
+        --radius-md: 60px;
+
+        /*------Spacing variables------ */
+        --space-xs: 6px;
+        --space-sm: 8px;
+        --space-md: 10px;
+        --space-lg: 14px;
+        --space-xl: 16px;
+        --space-2xl: 18px;
+        --space-3xl: 20px;
+        --space-4xl: 21px;
+        --space-5xl: 24px;
+        --space-6xl: 26px;
+        --space-7xl: 28px;
+        --space-8xl: 30px;
+        --space-9xl: 32px;
+        --space-10xl: 33px;
+        --space-11xl: 34px;
+        --space-12xl: 36px;
+        --space-13xl: 42px;
+        --space-14xl: 48px;
+        --space-15xl: 78px;
+        --space-16xl: 80px;
+    }
+}
+@layer components {
+    /*------------------------------
+    Container CSS
+    ------------------------------*/
+    .container-xs {
+        @apply w-full mx-auto max-w-[1630px];
+    }
+}

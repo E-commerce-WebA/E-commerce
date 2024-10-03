@@ -1,4 +1,6 @@
-import { Text, Heading, Img } from "./.."
+import { Img } from "../Img/Img.tsx";
+import { Text } from "../Text/Text.tsx";
+import { Heading } from "../Heading/Heading.tsx";
 import React from "react";
 interface Props {
 className?: string;
@@ -18,7 +20,7 @@ only for selected region
 ...props
 }: Props) {
 return (
-div {...props} className={ ${props.className} flex flex-col items-center md:w-full gap-8}> <
+<div {...props} className={ `${props.className} flex flex-col items-center md:w-full gap-8`}> 
 <div className="mx-11 self-stretch rounded-[60px] border-2 border-solid border-gray-500 p-[26px] sm:p-5"> <Img src={truckImage} alt="Truck Image" className="h-[64px] w-[64px]" />
 </div>
 <div className="flex flex-col items-center justify-center gap-3.5 self-stretch">
@@ -31,3 +33,4 @@ div {...props} className={ ${props.className} flex flex-col items-center md:w-fu
 </div>
 </div>
 );
+}

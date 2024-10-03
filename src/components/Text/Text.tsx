@@ -28,8 +28,8 @@ const Text: React.FC<React.PropsWithChildren<TextProps>> = ({
 
     return (
         <Component
-            className={text-gray-500 font-poppins ${className} ${sizes[size]}}
-            {...restprops}
+            className={`text-gray-500 font-poppins ${className} ${sizes[size]}`}
+            {...restProps}
         >
             {children}
         </Component>
