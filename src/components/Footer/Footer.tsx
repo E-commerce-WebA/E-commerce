@@ -17,7 +17,7 @@ export default function Footer({ ...props }: Props) {
         <div className="flex w-full flex-col items-center gap-24 lg:gap-24 md:gap-[72px] sm:gap-12">
           {" "}
           <div className="flex items-start justify-between gap-5 self-stretch md:flex-col">
-            <div className="flex w- [24%] flex-col justify-center gap-[30px] md:w-full">
+            <div className="flex w-[24%] flex-col justify-center gap-[30px] md:w-full">
               <Img
                 src="images/img_footer_logo.png"
                 alt="Footer Logo"
@@ -34,7 +34,7 @@ export default function Footer({ ...props }: Props) {
               <div className="flex flex-col justify-center gap-[18px]">
                 <div className="flex items-center gap-2">
                   <Img
-                    src="images/10041.svg"
+                    src="images/img_call.svg"
                     alt="Call Icon"
                     className="h-[24px] w-[24px]"
                   />
@@ -248,10 +248,10 @@ export default function Footer({ ...props }: Props) {
                     Enter your email
                   </Text>
                   <Button
-                    color="white_A700"
+                    color="white_a700"
                     size="2xl"
                     shape="square"
-                    className="w- [60px] px-3.5"
+                    className="w-[60px] px-3.5"
                   >
                     <Img src="images/img_arrow_gray_800.svg" />
                   </Button>
@@ -260,7 +260,7 @@ export default function Footer({ ...props }: Props) {
             </div>
           </div>
           <Text as="p" className="text-[14px] font-normal text-blue_gray-100">
-            Copyright © 2021 Elliye. All Right Reseved
+            Copyright © 2024 Elliye. All Right Reseved
           </Text>
         </div>
       </div>
