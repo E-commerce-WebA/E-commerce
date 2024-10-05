@@ -1,7 +1,7 @@
 import { Text } from "../../components/Text/Text";
 import { Heading } from "../../components/Heading/Heading";
 import JacketProfile from "../../components/JacketProfile/JacketProfile";
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 
 const clothingItems = [
 { jacketImage: "images/img_sweater.svg", jacketDescription: "Jacket" },
@@ -9,7 +9,7 @@ const clothingItems = [
 { jacketImage: "images/img_pants.svg", jacketDescription: "Pants" }, 
 { jacketImage: "images/img_boot.svg", jacketDescription: "Shoes" },
 { jacketImage: "images/img_dress.svg", jacketDescription: "Dress" },
-{ jacketImage: "images/img_belt.svg", jacketDescription: "Accesories" },
+{ jacketImage: "images/img_belt.svg", jacketDescription: "Accessories" },
 ];
 export default function CategoriesSection() {
 return (
