@@ -19,7 +19,7 @@ export default function Footer({ ...props }: Props) {
           <div className="flex items-start justify-between gap-5 self-stretch md:flex-col">
             <div className="flex w-[24%] flex-col justify-center gap-[30px] md:w-full">
               <Img
-                src="images/img_footer_logo.png"
+                src="images/img_footer_logo_1.png"
                 alt="Footer Logo"
                 className="h-[36px] w-[112px] object-contain"
               />
