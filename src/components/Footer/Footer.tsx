@@ -57,7 +57,7 @@ export default function Footer({ ...props }: Props) {
                     as="p"
                     className="text-[18px] font-normal text-white-a700 1g:text-[15px]"
                   >
-                    elliye@support.com
+                    4fashion@support.com
                   </Text>
                 </div>
               </div>
@@ -260,7 +260,7 @@ export default function Footer({ ...props }: Props) {
             </div>
           </div>
           <Text as="p" className="text-[14px] font-normal text-blue_gray-100">
-            Copyright © 2024 Elliye. All Right Reseved
+            Copyright © 2024 4Fashion. All Right Reserved
           </Text>
         </div>
       </div>

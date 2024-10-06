@@ -1,21 +1,21 @@
 @font-face {
     font-display: swap;
     font-style: normal;
-    src: url("/public/fonts/Poppins-Medium.ttf");
+    src: url("/fonts/Poppins-Medium.ttf");
     font-family: 'Poppins';
     font-weight: 500;
 }
 @font-face {
     font-display: swap;
     font-style: normal;
-    src: url("/public/fonts/Poppins-Bold.ttf");
+    src: url("/fonts/Poppins-Bold.ttf");
     font-family: 'Poppins';
     font-weight: 700;
 }
 @font-face {
     font-display: swap;
     font-style: normal;
-    src: url("/public/fonts/PlayfairDisplay-Regular.ttf");
+    src: url("/fonts/PlayfairDisplay-Regular.ttf");
     font-family: 'Playfair Display';
     font-weight: 400;
 }
@@ -23,7 +23,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("/public/fonts/Poppins-Regular.ttf");
+    src: url("/fonts/Poppins-Regular.ttf");
     font-family: "Poppins";
     font-weight: 400;
 }
@@ -31,7 +31,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("/public/fonts/PlayfairDisplay-Bold.ttf");
+    src: url("/fonts/PlayfairDisplay-Bold.ttf");
     font-family: "Playfair Display";
     font-weight: 700;
 }

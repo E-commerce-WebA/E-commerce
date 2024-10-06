@@ -7,7 +7,7 @@ import React from "react";
 import AliceCarousel, { EventObject } from "react-alice-carousel";
 
 
-export default function Herosection() {
+export default function HeroSection() {
 const [sliderState, setSliderState] = React.useState(0);
 const sliderRef = React.useRef<AliceCarousel>(null);
 return (
