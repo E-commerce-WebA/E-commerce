@@ -1,4 +1,4 @@
-import {Img} from "../components/Img/Img.tsx";
+import {Img} from "../../components/Img/Img.tsx";
 
 const Brands = () => {
   return (
