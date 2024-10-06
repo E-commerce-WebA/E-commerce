@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\Footer",
+    "\\src\\components\\JacketProfile",
+    "\\src\\components\\ProductCard",
+    "\\src\\pages",
+    "\\src\\pages\\HomePage"
+  ],
+  "SelectedNode": "\\src\\pages\\HomePage\\FeaturedSection.tsx",
+  "PreviewInSolutionExplorer": false
+}

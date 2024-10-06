@@ -8,20 +8,20 @@ import {Button} from "../../components/Button/Button.tsx";
 
 
 const featuredProductsGrid = [
-    {productImage: "images/img_placeholder_3.png", productName: "Black Highheels", productPrice: "$299"},
+    {productImage: "images/img_placeholder_19.png", productName: "Black Highheels", productPrice: "$299"},
     {productImage: "images/img_placeholder_630x384.png", productName: "Casual Grey Shoes", productPrice: "$299"},
-    {productImage: "images/img_shoes_isolated_pk7npbk.png", productName: "Brown Shoes", productPrice: "$299"},
-    {productImage: "images/img_business_shirt_ptnj9lv.png", productName: "Business Shirt", productPrice: "$299"},
-    {productImage: "images/img_warm_pants_px17hrp.png", productName: "Grey Warm Pants", productPrice:"$299"},
-    {productImage: "images/img_sport_j9bzxuy.png", productName:"Green Sport Jacket", productPrice:"$299"},
-    {productImage: "images/img_business_jacket_1.png", productName:"Blue Business Jacket", productPrice:"$299"},
-    {productImage: "images/img_travel_8v7cnke.png", productName:"Purple Warm Jacket", productPrice: "$299"},
-    {productImage: "images/img_placeholder_2.png", productName:"Woman Denim Skirt", productPrice:"$299"},
+    {productImage: "images/img_placeholder_16.png", productName: "Brown Shoes", productPrice: "$299"},
+    {productImage: "images/img_placeholder_23.png", productName: "Business Shirt", productPrice: "$299"},
+    {productImage: "images/img_placeholder_19.png", productName: "Grey Warm Pants", productPrice:"$299"},
+    {productImage: "images/img_placeholder_106x106.png", productName:"Green Sport Jacket", productPrice:"$299"},
+    {productImage: "images/img_placeholder_26.png", productName:"Blue Business Jacket", productPrice:"$299"},
+    {productImage: "images/img_placeholder_18.png", productName:"Purple Warm Jacket", productPrice: "$299"},
+    // {productImage: "images/img_placeholder_2.png", productName:"Woman Denim Skirt", productPrice:"$299"},
 ];
 const casualWear = [
-    {productImage: "images/img_placeholder_4.png", productName: "Pink Shirt", productPrice: "$299"},
-    {productImage: "images/img_placeholder_5.png", productName: "Gray T-shirt", productPrice: "$299"},
-    {productImage: "images/img_placeholder_6.png", productName: "Red Flannel", productPrice: "$299"},
+    {productImage: "images/img_placeholder_22.png", productName: "Pink Shirt", productPrice: "$299"},
+    {productImage: "images/img_placeholder_20.png", productName: "Gray T-shirt", productPrice: "$299"},
+    {productImage: "images/img_placeholder_18.png", productName: "Red Flannel", productPrice: "$299"},
 ];
 
 const FeaturedSection = () => {
@@ -46,7 +46,7 @@ const FeaturedSection = () => {
                 <div className="flex items-center justify-between gap-5 md:flex-col">
                 <div className="flex w-[26%] flex-col items-center gap-3.5 border-2 border-solid border-gray-800 p-[42px] md:w-full md:p-5 sm:p-4">
                 <Img
-                    src="images/img_placeholder_250x250.png"
+                    src="images/img_placeholder_17.png"
                     alt="Placeholder Image"
                     className="h-[250px] w-[250px] object-cover"
                 />
@@ -58,7 +58,7 @@ const FeaturedSection = () => {
                     $299
                 </Text>
                 </div>
-                <Button shape="square" className="mx-6 min-w-[200px] px-[34px] font-bold md:mx-0 sm:px-4">
+                <Button shape="square" className="min-w-[200px] px-[34px] mx-6 font-bold md:mx-0 sm:px-4 flex flex-row items-center justify-center text-center cursor-pointer whitespace-nowrap rounded-[0px] h-[60px] text-[18px] bg-gray-800 text-white-a700">
                     Add to Cart
                 </Button>
             </div>
