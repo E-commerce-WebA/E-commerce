@@ -9,7 +9,7 @@ import ProductList1 from "../../components/ProductList1/ProductList1.tsx";
 const NewArrivalsSection = () => {
     return (
         <>
-            <div className="mt-[98px] flex justify-center self-stretch">
+            <div className="mt-[98px] flex justify-center self-stretch" id="NewArrival">
                 <div className="max-w-[1630px] mx-auto flex w-full justify-center 1g:px-5 md:px-5">
                     <div className="flex w-full flex-col gap-8">
                         <div className="flex flex-wrap items-center justify-between gap-5">

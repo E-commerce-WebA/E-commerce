@@ -28,7 +28,7 @@ const FeaturedSection = () => {
     return (
         <>
         {/* featured section */}
-        <div className="mt-[98px] flex flex-col items-center self-stretch">
+        <div className="mt-[98px] flex flex-col items-center self-stretch" id="Features">
             <div className="container-xs flex flex-col gap-8 lg:px-5 md:px-5">
                 <div className="flex flex-wrap items-center justify-between gap-5">
                     <Heading

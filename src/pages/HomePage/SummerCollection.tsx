@@ -12,7 +12,7 @@ const sliderRef = React.useRef<AliceCarousel>(null);
   return (
     <div>
 
-<div className="relative mt-[74px] h-[544px] self-stretch">
+<div className="relative mt-[74px] h-[544px] self-stretch" id='Collections'>
 <div className="absolute left-0 right-0 top-0 m-auto flex flex-1 justify-center bg-gray-800 py-[42px] md:py-5 sm:py-4">
 <div className="container-xs mb-[284px] flex 1g:px-5 md:px-5 ">
 <Heading as="h2"
@@ -44,7 +44,7 @@ className="mx-auto h-[400px] w-full flex-1 object-cover"
 />
 <Text size="textlg"
 as="p"
-className="absolute bottom-0 left-[11%] top-0 my-auto h-max w-[36%] text-[36px] font-normal leading-[54px] text-gray-800 1g: text-[30px]">
+className="absolute bottom-0 left-[11%] top-0 my-auto h-max w-[36%] text-[36px] font-normal leading-[54px] text-gray-800 lg:text-[30px]">
 <span>
 <>
 Summer <br />
