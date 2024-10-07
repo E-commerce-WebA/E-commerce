@@ -75,8 +75,8 @@ export default function Footer({ ...props }: Props) {
                   <ul className="flex flex-col items-start gap-3.5">
                     <li>
                       <a
-                        href="Categories"
-                        target="_blank"
+                        href="#Categories"
+                        // target="_blank"
                         rel="noreferrer"
                         className="1g:text-[15px]"
                       >
@@ -89,7 +89,7 @@ export default function Footer({ ...props }: Props) {
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="lg:text-[15px]">
+                      <a href="#NewArrival" className="lg:text-[15px]">
                         <Text
                           as="p"
                           className="text-[18px] font-normal text-gray-500"
@@ -100,8 +100,8 @@ export default function Footer({ ...props }: Props) {
                     </li>
                     <li>
                       <a
-                        href="Features"
-                        target="_blank"
+                        href="#Features"
+                        // target="_blank"
                         rel="noreferrer"
                         className="1g:text-[15px]"
                       >
@@ -116,8 +116,8 @@ export default function Footer({ ...props }: Props) {
                     </li>
                     <li>
                       <a
-                        href="Collections"
-                        target="_blank"
+                        href="#Collections"
+                        // target="_blank"
                         rel="noreferrer"
                         className="lg:text-[15px]"
                       >

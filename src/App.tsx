@@ -8,11 +8,13 @@ import HeroSection from "./pages/HomePage/HeroSection.tsx";
 import WhyChooseUsSection from "./pages/HomePage/WhyChooseUsSection.tsx";
 import SummerCollection from "./pages/HomePage/SummerCollection.tsx";
 import PopularThisWeekSection from "./pages/HomePage/PopularThisWeeksSection.tsx";
+import SubHeader from "./components/Header/SubHeader.tsx";
 
 const App = () => {
   return (
     <div>
       <Header />
+      <SubHeader/>
       <HeroSection />
       <CategoriesSection />
       <NewArrivalsSection />

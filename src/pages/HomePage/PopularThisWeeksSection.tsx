@@ -1,7 +1,7 @@
 import { Text } from "../../components/Text/Text";
 import { Heading } from "../../components/Heading/Heading";
 import ProductList11 from "../../components/ProductList11/ProductList11";
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 const fashionItemsList = [
 {
 productImage1: "images/img_placeholder_174x224.png",
@@ -50,12 +50,12 @@ export default function PopularThisWeekSection() {
 return (
 <>
 {/* popular this week section  */}
-<div className="mt-[102px] flex flex-col items-center self-stretch">
+<div className="mt-[102px] flex flex-col items-center self-stretch" id="Popular">
 <div className="container-xs flex flex-col gap-7 1g:px-5 md:px-5"> 
 <div className="flex flex-wrap items-start justify-between gap-5">
 <Heading
 as="h2"
-className="self-center text-[36px] font-bold text-gray-800 lg:text-[30px] md:text-[30px] sm: text-[28px]">
+className="self-center text-[36px] font-bold text-gray-800 lg:text-[30px] md:text-[30px] sm:text-[28px]">
 Popular This Week
 </Heading>
 <a href="#" className="mt-2 1g:text-[15px]">
