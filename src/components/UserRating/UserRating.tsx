@@ -1,4 +1,4 @@
-import { Img } from "../../components/Img/Img";
+import { Img } from "../Img/Img.tsx";
 
 interface Props {
 className?: string;

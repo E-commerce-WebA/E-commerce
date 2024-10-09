@@ -36,8 +36,8 @@ const clothingGrid = [
     collectionDescription: "Collection",
   },
   {
-    jacketImage: "images/img_sweater.svg",
-    jacketTitle: "Jacket",
+    jacketImage: "images/img_dress.svg",
+    jacketTitle: "Dress",
     collectionDescription: "Collection",
   },
   {
@@ -155,7 +155,7 @@ export default function CategoriesWithSidebarPage() {
                     <div className="flex items-center justify-between gap-5">
                       <Text
                         as="p"
-                        className="text-[18px] font-medium text-gray-800 1g:text-[15px]"
+                        className="text-[18px] font-medium text-gray-800 lg:text-[15px]"
                       >
                         Filter by Rating
                       </Text>
