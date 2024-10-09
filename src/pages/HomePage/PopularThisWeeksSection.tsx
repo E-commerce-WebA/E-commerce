@@ -55,7 +55,7 @@ return (
 <div className="flex flex-wrap items-start justify-between gap-5">
 <Heading
 as="h2"
-className="self-center text-[36px] font-bold text-gray-800 lg:text-[30px] md:text-[30px] sm:text-[28px]">
+className="self-center font-bold text-gray-800 lg:text-[30px] md:text-[30px] sm:text-[28px]">
 Popular This Week
 </Heading>
 <a href="#" className="mt-2 1g:text-[15px]">
