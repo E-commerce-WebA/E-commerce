@@ -10,6 +10,7 @@ import SummerCollection from "./pages/HomePage/SummerCollection.tsx";
 import PopularThisWeekSection from "./pages/HomePage/PopularThisWeeksSection.tsx";
 import SubHeader from "./components/Header/SubHeader.tsx";
 import CategoriesWithSidebarPage from "./pages/CategoriesWithSlidebar/CategoriesWithSlidebar.tsx";
+import ProductList from "./pages/ProductList/ProductList.tsx";
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
       <PopularThisWeekSection/>
       <WhyChooseUsSection />
       <Brands />
-      {/* <CategoriesWithSidebarPage/> */}
+      {/*<CategoriesWithSidebarPage/>*/}
+      {/*<ProductList />*/}
       <Footer />
     </div>
   );
