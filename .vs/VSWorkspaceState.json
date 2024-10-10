@@ -3,13 +3,12 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\components",
-    "\\src\\components\\Footer",
-    "\\src\\components\\JacketProfile",
-    "\\src\\components\\ProductCard",
+    "\\src\\components\\ProductDetails1",
+    "\\src\\components\\ProductDetails2",
+    "\\src\\components\\UserRating",
     "\\src\\pages",
-    "\\src\\pages\\HomePage"
+    "\\src\\pages\\ProductDetails"
   ],
-  "SelectedNode": "\\src\\pages\\HomePage\\FeaturedSection.tsx",
+  "SelectedNode": "\\src\\pages\\ProductDetails\\ProductDetails.tsx",
   "PreviewInSolutionExplorer": false
 }

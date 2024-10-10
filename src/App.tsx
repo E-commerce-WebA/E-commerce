@@ -11,6 +11,7 @@ import PopularThisWeekSection from "./pages/HomePage/PopularThisWeeksSection.tsx
 import SubHeader from "./components/Header/SubHeader.tsx";
 import CategoriesWithSidebarPage from "./pages/CategoriesWithSlidebar/CategoriesWithSlidebar.tsx";
 import ProductList from "./pages/ProductList/ProductList.tsx";
+import ProductDetailsPage from "./pages/ProductDetails/ProductDetails.tsx";
 
 const App = () => {
   return (
@@ -25,8 +26,9 @@ const App = () => {
       <PopularThisWeekSection/>
       <WhyChooseUsSection />
       <Brands />
-      {/*<CategoriesWithSidebarPage/>*/}
-      {/*<ProductList />*/}
+      <CategoriesWithSidebarPage/>
+      <ProductList />
+      <ProductDetailsPage/>
       <Footer />
     </div>
   );
