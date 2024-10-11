@@ -53,7 +53,11 @@ ref,
         <Select
             ref={ref}
             options={options}
-            className={`${className} flex ${shape && shapes[shape as keyof typeof shapes]} ${size && sizes[size as keyof typeof sizes]} ${variant && variants[variant as keyof typeof variants]?.[color as keyof (typeof variants)[typeof variant]]}`}
+            className={`${className} flex 
+  ${shape ? shapes[shape as keyof typeof shapes] : ''} 
+  ${size ? sizes[size as keyof typeof sizes] : ''} 
+  ${variant && color ? variants[variant as keyof typeof variants][color as keyof (typeof variants)[typeof variant]] : ''}`}
+
             isSearchable={isSearchable}
                 isMulti={isMulti}
                 components={{

@@ -21,7 +21,7 @@ return index !== props.activeIndex + magnifiedIndex;
 };
 
 const slideItems = centerMode
-? items?.map((child, index) => {
+? items?.map((child:any, index:any) => {
 if (isSmall(index)) {
 return React.cloneElement(child, {
 ...child.props,
