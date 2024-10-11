@@ -4,8 +4,6 @@ import { Input } from "../../components/Input/Input";
 import { Text } from "../../components/Text/Text";
 import { Heading } from "../../components/Heading/Heading";
 import { Img } from "../../components/Img/Img";
-import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Header/Header"
 import SimilarProductsSection from "./SimilarProductsSection";
 import React, { Suspense } from "react";
 
@@ -28,7 +26,7 @@ content="Get details on the Purple Warm Zip Jacket for just $299. Quality materi
 <div className="flex w-full flex-col gap-[180px] bg-white-a700 1g:gap-[135px] md:gap-[135px] sm:gap-[90px]">
 <div className="flex flex-col items-center gap-[38px]">
 {/* navigation bar section */}
-<Header className="self-stretch" />
+{/* <Header className="self-stretch" /> */}
 {/* product overview section */}
 <div className="container-xs 1g:px-5 md:px-5">
 {/* product details section */}
@@ -151,7 +149,7 @@ Add to Cart
 <SimilarProductsSection/>
 
 {/* footer section */}
-<Footer/>
+{/* <Footer/> */}
 </div>
 </>
 );

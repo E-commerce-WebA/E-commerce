@@ -5,8 +5,8 @@ import { Img } from "../../components/Img/Img";
 import { Text } from "../../components/Text/Text";
 import { Input } from "../../components/Input/Input";
 import { Heading } from "../../components/Heading/Heading";
-import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Header/Header";
+
+
 
 const dropDownOptions = [
   { label: "option1", value: "option1" },
@@ -27,7 +27,7 @@ const CheckoutPage = () => {
       </Helmet>
       <div className="flex w-full flex-col items-center bg-white-a700">
         {/* header section */}
-        <Header className="self-stretch" />
+        {/* <Header className="self-stretch" /> */}
 
         {/* breadcrumb section */}
         <div className="container-xs mt-[30px] lg:px-5 md:px-5">
@@ -390,7 +390,7 @@ const CheckoutPage = () => {
           </div>
         </div>
         {/* footer section */}
-        <Footer className="mt-[100px] self-stretch" />
+        {/* <Footer className="mt-[100px] self-stretch" /> */}
       </div>
     </>
   );

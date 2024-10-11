@@ -4,8 +4,6 @@ import { Button } from "../../components/Button/Button";
 import { Text } from "../../components/Text/Text";
 import { CheckBox } from "../../components/CheckBox/CheckBox";
 import { Heading } from "../../components/Heading/Heading";
-import Footer from "../../components/Footer/Footer.tsx";
-import Header from "../../components/Header/Header.tsx";
 import ProductDetails1 from "../../components/ProductDetails1/ProductDetails1.tsx";
 import UserRating from "../../components/UserRating/UserRating.tsx";
 import { Suspense } from "react";
@@ -219,7 +217,7 @@ const ProductList = () => {
             <div className="flex w-full flex-col items-center bg-white-a700">
                 {/* navigation bar section */}
                 <div className="flex flex-col items-center gap-[30px] self-stretch">
-                    <Header className="self-stretch" />
+                    {/* <Header className="self-stretch" /> */}
 
                         {/* breadcrumb section */}
                     <div className="container-xs lg:px-5 md:px-5">
@@ -473,7 +471,7 @@ const ProductList = () => {
                 </div>
 
                 {/*footer section*/}
-                <Footer className="mt-[100px] self-stretch"/>
+                {/* <Footer className="mt-[100px] self-stretch"/> */}
             </div>
         </>
     );
