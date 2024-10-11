@@ -13,7 +13,7 @@ import CategoriesWithSidebarPage from "./pages/CategoriesWithSlidebar/Categories
 import ProductList from "./pages/ProductList/ProductList.tsx";
 import ProductDetailsPage from "./pages/ProductDetails/ProductDetails.tsx";
 import CheckoutPage from "./pages/Checkout/Checkout.tsx";
-import BreadcrumbSection from "./pages/Cart/BreadcrumbSection.tsx";
+import CartPage from "./pages/Cart/Cart.tsx";
 
 const App = () => {
   return (
@@ -28,11 +28,11 @@ const App = () => {
       <PopularThisWeekSection/>
       <WhyChooseUsSection />
       <Brands />
-      <BreadcrumbSection/>
+      {/* <CartPage/> */}
       {/*<CategoriesWithSidebarPage/>*/}
       {/*<ProductList />*/}
       {/*<ProductDetailsPage/>*/}
-      {/*<CheckoutPage />*/}
+      {/* <CheckoutPage /> */}
       <Footer />
     </div>
   );
