@@ -1,8 +1,9 @@
-import ProductList from "pages/ProductList";
-import ProductDetails from "pages/ProductDetails";
-import Cart from "pages/Cart";
-import Checkout from "pages/Checkout";
-import Completed from "pages/Completed";
+import ProductList from "./pages/ProductList/ProductList";
+import ProductDetails from "./pages/ProductDetails/ProductDetails";
+import Cart from "./pages/Cart/Cart";
+import Checkout from "./pages/Checkout/Checkout";
+import CategoriesWithSidebarPage from "./pages/CategoriesWithSlidebar/CategoriesWithSlidebar";
+// import Completed from "./pages/Completed";
 const ProjectRoutes = () => {
 let element = useRoutes([
 { path: "dhiwise-dashboard", element: <Home /> },
@@ -14,7 +15,7 @@ element: <HomePage />
 },
 {
 path: "categorieswithsidebar",
-element: <CategorieswithSidebar />},
+element: <CategoriesWithSidebarPage />},
 {
 path: "productlist",
 element: <ProductList />,
