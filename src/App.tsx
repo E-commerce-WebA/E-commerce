@@ -14,11 +14,12 @@ import ProductList from "./pages/ProductList/ProductList.tsx";
 import ProductDetailsPage from "./pages/ProductDetails/ProductDetails.tsx";
 import CheckoutPage from "./pages/Checkout/Checkout.tsx";
 import BreadcrumbSection from "./pages/Cart/BreadcrumbSection.tsx";
+import LayOut from "./components/LayOut/LayOut.tsx";
 
 const App = () => {
   return (
     <div>
-      <Header />
+      <LayOut >
       <SubHeader/>
       <HeroSection />
       <CategoriesSection />
@@ -33,7 +34,7 @@ const App = () => {
       {/*<ProductList />*/}
       {/*<ProductDetailsPage/>*/}
       {/*<CheckoutPage />*/}
-      <Footer />
+      </LayOut  >
     </div>
   );
 };
