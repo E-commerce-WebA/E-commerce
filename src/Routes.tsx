@@ -3,10 +3,12 @@ import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Cart from "./pages/Cart/Cart";
 import Checkout from "./pages/Checkout/Checkout";
 import CategoriesWithSidebarPage from "./pages/CategoriesWithSlidebar/CategoriesWithSlidebar";
+import NotFound from "./pages/NotFound";
+import HomePage from "./pages/HomePage/HomePage";
+import { useRoutes } from "react-router-dom";
 // import Completed from "./pages/Completed";
 const ProjectRoutes = () => {
 let element = useRoutes([
-{ path: "dhiwise-dashboard", element: <Home /> },
 { path: "*", element: <NotFound /> },
 {
 path: "/",
@@ -33,8 +35,9 @@ element: <Cart />,
 path: "checkout",
 element: <Checkout />,
 },
-{ path: "completed", element: <Completed />,
-},
+// { path: "completed", element: <Completed />,
+// }
+
 ]);
 return element;
 };

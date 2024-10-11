@@ -3,8 +3,6 @@ import { Img } from "../../components/Img/Img";
 import { Text } from "../../components/Text/Text";
 import { CheckBox } from "../../components/CheckBox/CheckBox";
 import { Heading } from "../../components/Heading/Heading";
-import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Header/Header.tsx";
 import JacketCollection from "../../components/JacketCollection/JacketCollection.tsx";
 import UserRating from "../../components/UserRating/UserRating";
 import { Suspense } from "react";
@@ -63,7 +61,7 @@ export default function CategoriesWithSidebarPage() {
       </Helmet>
       <div className="flex w-full flex-col items-center bg-white-a700">
         {/*header section */}
-        <Header className="self-stretch" />
+        {/* <Header className="self-stretch" /> */}
 
         {/* breadcrumb section */}
         <div className="container-xs mt-8 1g:px-5 md:px-5">
@@ -260,7 +258,7 @@ export default function CategoriesWithSidebarPage() {
           </div>
         </div>
         {/* footer section */}
-        <Footer className="mt-[84px] self-stretch" />
+        {/* <Footer className="mt-[84px] self-stretch" /> */}
       </div>
     </>
   );

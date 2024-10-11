@@ -10,9 +10,9 @@ type LayoutProps = {
   const LayOut: React.FC<LayoutProps> = ({children}) => {
   return (
     <>
-    <Header/>
+    <Header className='self-stretch'/>
     {children}
-    <Footer/>
+    <Footer className="mt-[100px]"/>
         
     </>
   )

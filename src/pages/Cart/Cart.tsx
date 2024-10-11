@@ -1,6 +1,4 @@
 import { Helmet } from "react-helmet";
-import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Header/Header.tsx";
 import BreadcrumbSection from "./BreadcrumbSection";
 
 export default function CartPage() {
@@ -15,12 +13,12 @@ export default function CartPage() {
       </Helmet>
       <div className="w-full bg-white-a708">
         {/*header section */}
-        <Header />
+        {/* <Header /> */}
         {/* breadcrumb section */}
 
         <BreadcrumbSection />
         {/* footer section */}
-        <Footer className="mt-[100px]" />
+        {/* <Footer className="mt-[100px]" /> */}
       </div>
     </>
   );
