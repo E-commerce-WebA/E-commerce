@@ -6,7 +6,8 @@ import CategoriesWithSidebarPage from "./pages/CategoriesWithSlidebar/Categories
 import NotFound from "./pages/NotFound";
 import HomePage from "./pages/HomePage/HomePage";
 import { useRoutes } from "react-router-dom";
-// import Completed from "./pages/Completed";
+import Completed from "./pages/Completed/Completed";
+
 const ProjectRoutes = () => {
 let element = useRoutes([
 { path: "*", element: <NotFound /> },
@@ -35,8 +36,8 @@ element: <Cart />,
 path: "checkout",
 element: <Checkout />,
 },
-// { path: "completed", element: <Completed />,
-// }
+{ path: "completed", element: <Completed />,
+}
 
 ]);
 return element;
