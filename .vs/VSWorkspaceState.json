@@ -3,12 +3,8 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\components\\ProductDetails1",
-    "\\src\\components\\ProductDetails2",
-    "\\src\\components\\UserRating",
     "\\src\\pages",
     "\\src\\pages\\ProductDetails"
   ],
-  "SelectedNode": "\\src\\pages\\ProductDetails\\ProductDetails.tsx",
   "PreviewInSolutionExplorer": false
 }
