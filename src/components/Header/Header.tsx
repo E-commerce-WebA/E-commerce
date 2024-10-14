@@ -19,9 +19,11 @@ const Header = ({ ...props }: Props) => {
       <div className="container-xs flex justify-center lg:px-5 md:px-5">
         <div className="flex w-full items-center justify-between gap-5 md:flex-col">
           <Img
+
             src="images/img_header_logo_2.png"
             alt="Header Logo"
             className="h-[36px] w-[112px] self-end object-contain md:self-auto"
+          
           />
 
           {/* Label wrapping the input */}
