@@ -33,8 +33,9 @@ className="text-[64px] font-bold text-gray-800 1g:text-[48px] md:text-[48px]">
 size="texts"
 as="p"
 className="mt-[34px] w-[92%] text-[18px] font-normal leading-8 text-gray-800 lg:w-full lg:text-[15px] md:w-full">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+Refresh your wardrobe with the hottest styles of the season! Discover trendy outfits, accessories, and footwear that elevate your look without breaking the bank. Shop now and step into summer in style!{" "}
 </Text>
+<a href="/productlist">
 <Button
 size="3xl"
 shape="square"
@@ -42,6 +43,7 @@ rightIcon={<img src="images/img_arrow.svg" alt="Arrow" className="h-[48px] w-[48
 className="min-w-[244px] mt-14 gap-2.5 px-8 font-medium sm:px-4 flex flex-row items-center justify-center text-center cursor-pointer whitespace-nowrap rounded-[0px] h-[60px]  text-[24px] bg-gray-800 text-white-a700">
 Shop Now
 </Button>
+</a>
 </div>
 </div>
 <div className="relative ml-[-14px] w-[62%] md:ml-e md:w-full md:px-5">

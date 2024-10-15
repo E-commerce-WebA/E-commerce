@@ -7,6 +7,7 @@ import NotFound from "./pages/NotFound";
 import HomePage from "./pages/HomePage/HomePage";
 import { useRoutes } from "react-router-dom";
 import Completed from "./pages/Completed/Completed";
+import Login from "./pages/Login/Login";
 
 const ProjectRoutes = () => {
 let element = useRoutes([
@@ -32,6 +33,10 @@ element: <ProductDetails />
 path: "cart",
 element: <Cart />,
 },
+{
+    path: "login",
+    element: <Login />,
+    },
 {
 path: "checkout",
 element: <Checkout />,
