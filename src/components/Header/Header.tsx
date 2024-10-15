@@ -3,12 +3,14 @@ import { Img } from "../Img/Img.tsx";
 import { Input } from "../Input/Input.tsx";
 import { CloseSVG } from "../Input/Close.tsx";
 import { Button } from "../Button/Button.tsx";
+import { FaSearch } from "react-icons/fa";
 
 interface Props {
   className?: string;
 }
 
 const Header = ({ ...props }: Props) => {
+  //* Define the state to hold the search input value
   const [searchBarValue, setSearchBarValue] = React.useState("");
 
   return (
@@ -18,13 +20,13 @@ const Header = ({ ...props }: Props) => {
     >
       <div className="container-xs flex justify-center lg:px-5 md:px-5">
         <div className="flex w-full items-center justify-between gap-5 md:flex-col">
-          <Img
-
-            src="images/img_header_logo_2.png"
-            alt="Header Logo"
-            className="h-[36px] w-[112px] self-end object-contain md:self-auto"
-          
-          />
+          <a href="/">
+            <Img
+              src="images/img_header_logo_2.png"
+              alt="Header Logo"
+              className="h-[36px] w-[112px] self-end object-contain md:self-auto"
+            />
+          </a>
 
           {/* Label wrapping the input */}
           <label
@@ -42,7 +44,7 @@ const Header = ({ ...props }: Props) => {
               value={searchBarValue}
               onChange={(e) => setSearchBarValue(e.target.value)}
               suffix={
-                <div className="flex w-[48px] h-[48px] items-center justify-center bg-gray-800">
+                <div className="flex w-[48px] h-[48px] items-center justify-center ">
                   {searchBarValue?.length > 0 ? (
                     <CloseSVG
                       onClick={() => setSearchBarValue("")}
@@ -50,11 +52,12 @@ const Header = ({ ...props }: Props) => {
                       width={18}
                     />
                   ) : (
-                    <Img
-                      src="images/img_search.svg"
-                      alt="Search"
-                      className="h-[18px] w-[18px] p-3.5"
-                    />
+                    // <Img
+                    //   src="images/img_search.svg"
+                    //   alt="Search"
+                    //   className="h-[18px] w-[18px] p-3.5 "
+                    // />
+                    <FaSearch />
                   )}
                 </div>
               }
@@ -65,7 +68,7 @@ const Header = ({ ...props }: Props) => {
           {/* Icons and Button */}
           <div className="flex w-[12%] items-center justify-between gap-5 md:w-full">
             <div className="flex w-[36%] justify-between gap-5">
-              <a href="#">
+              <a href="/cart">
                 <Img
                   src="images/img_cart.svg"
                   alt="Cart Icon"
@@ -80,13 +83,15 @@ const Header = ({ ...props }: Props) => {
                 />
               </a>
             </div>
-            <Button
+            <a href="/login"> <Button
               size="xs"
               shape="square"
               className=" min-w-[106px] px-[34px] self-center font-bold sm:px-4 flex flex-row items-center justify-center text-center cursor-pointer whitespace-nowrap rounded-[0px] h-[52px] text-[14px] bg-gray-800 text-white-a700"
             >
               Login
             </Button>
+            </a>
+           
           </div>
         </div>
       </div>
