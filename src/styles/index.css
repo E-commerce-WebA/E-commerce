@@ -49,3 +49,11 @@ table {
 .alice-carousel__dots-item {
     cursor: pointer;
 }
+
+/* button hover effect */
+.product-card:hover .add_to_cart {
+    display: block;
+  }
+  .product-card .add_to_cart {
+    display: none;
+  }
