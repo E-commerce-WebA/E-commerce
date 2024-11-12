@@ -1,6 +1,7 @@
 import React from "react";
 import {Img} from "../Img/Img.tsx";
 import {Text} from "../Text/Text.tsx";
+import { Button } from "../Button/Button.tsx";
 
 
 interface Props {
@@ -11,22 +12,37 @@ interface Props {
 }
 
 const ProductDetails4 = ({
-     productImage="images/img_placeholder_4.png",
-     productName="Pink Shirt",
+     productImage="images/img_placeholder_19.png",
+     productName="Black Highheels",
      productPrice="$299",
      ...props
  }: Props) => {
     return (
-        <div {...props} className={`${props.className} flex flex-col items-center w-[22%] gap-3.5`}>
-            <Img src={productImage} alt="Placeholder Image" className="h-[250px] w-full object-cover"/>
-            <div className="flex flex-col items-center gap-2">
-                <Text size="texts" as="p" className="text-[24px] font-medium text-gray-800">
-                    {productName}
-                </Text>
-                <Text as="p" className="text-[18px] font-medium text-gray-500">
-                    {productPrice}
-                </Text>
-            </div>
+        <div {...props} className={`${props.className} product-card flex flex-col items-center w-[22%] gap-3.5 shadow shadow-white md:shadow-indigo-500/40`}>
+           
+           <div className="relative w-full">
+        <Img
+          src={productImage}
+          alt="Product Image"
+          className="h-[250px] w-full object-cover"
+        />
+        
+      </div>
+      <div className="mx-7 flex flex-col items-center justify-center gap-1.5 self-stretch">
+        <Text
+          size="texts"
+          as="p"
+          className="text-[24px] font-medium text-gray-800"
+        >
+          {productName}
+        </Text>
+        <Text as="p" className="text-[18px] font-medium text-gray-500">
+          {productPrice}
+        </Text>
+      </div>
+      <Button shape="square" className=" add_to_cart min-w-[200px] px-[34px] mx-6 font-bold md:mx-0 sm:px-4 flex flex-row items-center justify-center text-center cursor-pointer whitespace-nowrap rounded-[0px] h-[60px] text-[18px] bg-gray-800 text-white-a700">
+                    Add to Cart
+     </Button>
         </div>
     );
 }

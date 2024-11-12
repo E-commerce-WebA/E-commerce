@@ -44,7 +44,7 @@ const FeaturedSection = () => {
                     </a>
                 </div>
                 <div className="flex items-center justify-between gap-5 md:flex-col">
-                <div className="flex w-[26%] flex-col items-center gap-3.5 border-2 border-solid border-gray-800 p-[42px] md:w-full md:p-5 sm:p-4">
+                <div className=" product-card flex w-[26%] flex-col items-center gap-3.5 shadow shadow-white md:shadow-indigo-500/40 p-[42px] md:w-full md:p-5 sm:p-4">
                 <Img
                     src="images/img_placeholder_17.png"
                     alt="Placeholder Image"
@@ -58,11 +58,11 @@ const FeaturedSection = () => {
                     $299
                 </Text>
                 </div>
-                <Button shape="square" className="min-w-[200px] px-[34px] mx-6 font-bold md:mx-0 sm:px-4 flex flex-row items-center justify-center text-center cursor-pointer whitespace-nowrap rounded-[0px] h-[60px] text-[18px] bg-gray-800 text-white-a700">
+                <Button  shape="square" className=" add_to_cart min-w-[200px] px-[34px] mx-6 font-bold md:mx-0 sm:px-4 flex flex-row items-center justify-center text-center cursor-pointer whitespace-nowrap rounded-[0px] h-[60px] text-[18px] bg-gray-800 text-white-a700">
                     Add to Cart
                 </Button>
             </div>
-            <div className="ml-[98px] mr-16 flex w-[74%] gap-[166px] md:mx-0 md:w-full md:flex-col">
+            <div className="ml-[98px] mr-16 flex w-full gap-[166px] md:mx-0 md:w-full md:flex-col">
                 <Suspense fallback={<div>Loading feed...</div>}>
                     {casualWear.map((d, index) => (
                         <ProductDetails4 {...d} key={"listPlaceholder" + index} />
